@@ -1,0 +1,17 @@
+<header id="main-container" class="static-header">
+
+    <mat-toolbar color="primary">
+        <button mat-button routerLink="/shopping" routerLinkActive="active">
+            <a>Compras</a>
+        </button>
+        <button mat-button routerLink="/sales" routerLinkActive="active">
+            <a>Ventas</a>
+        </button>
+
+        <span class="spacer"></span>
+        <button mat-icon-button (click)="logout()">
+            <mat-icon class="icon-logout">logout</mat-icon>
+        </button>
+    </mat-toolbar>
+
+</header>

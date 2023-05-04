@@ -1,0 +1,29 @@
+#main-container {
+
+    table {
+        margin: 20px auto;
+        width: 80%;
+
+        .mat-column-month,
+        .mat-column-state, 
+        .mat-column-sale {
+            width: 32px;
+            border-right: 1px solid currentColor;
+            padding-right: 10px;
+            text-align: center;
+        }
+    }
+
+}
+
+@media screen and (max-width: 980px) {
+
+    #main-container {
+
+        table {
+            width: 98% !important;
+        }
+
+    }
+
+}
