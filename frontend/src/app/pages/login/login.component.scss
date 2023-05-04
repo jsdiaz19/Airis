@@ -1,0 +1,62 @@
+@import '../../../variables.scss';
+
+#main-container {
+    text-align: center;
+
+    header {
+        mat-toolbar {
+            background-color: $color-primary;
+        }
+    }
+
+    h1 {
+        margin-top: 60px;
+        font-weight: 400;
+    }
+
+    .container-form {
+        margin: auto;
+        width: 50%;
+        border-radius: 4px;
+        padding: 50px 0px 50px;
+        box-shadow: 0px 1px 13px -6px $color-primary;
+        -webkit-box-shadow: 0px 1px 13px -6px $color-primary;
+        -moz-box-shadow: 0px 1px 13px -6px $color-primary;
+
+        form {
+            div {
+                mat-form-field {
+                    width: 70%;
+                    display: block;
+                    margin: auto;
+                    font-size: 14px;
+                }
+            }
+
+            button {
+                width: 35%;
+                display: block;
+                margin: 10px auto;
+                background-color: $color-primary;
+                font-weight: 500;
+                font-size: 16px;
+            }
+        }
+    }
+
+}
+
+/* responsive design */
+@media screen and (max-width: 980px) {
+
+    .container-form {
+        width: 90% !important;
+
+        form {
+            button {
+                width: 70% !important;
+            }
+        }
+    }
+
+}

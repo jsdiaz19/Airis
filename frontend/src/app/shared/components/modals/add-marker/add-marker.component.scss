@@ -1,0 +1,25 @@
+@import '../../../../../variables.scss';
+
+#main-container {
+    h3 {
+        font-weight: 500;
+    }
+
+    form {
+        margin-top: 30px;
+        div {
+            width: 90%;
+            margin-top: 5px ;
+            
+            mat-form-field {
+                width: 100%;
+                font-size: 13px;
+    
+            }
+        }
+
+        button {
+            background: $color-primary;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+#main-container {
+
+    #map { 
+        height: 80vh; 
+    }
+
+    .container-button-add-marker {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        bottom: 100px;
+        z-index: 10;
+    }
+
+}

@@ -1,0 +1,39 @@
+@import './variables.scss';
+
+html, body { 
+    height: 100%; 
+}
+body { 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+}
+
+
+.mat-form-field-appearance-outline .mat-form-field-outline-thick {
+    color: $color-primary !important;
+}
+
+.active {
+    background-color: $color-secondary;
+}
+
+/** modals **/
+.add-marker-modal {
+    width: 50%;
+}
+
+/****** sticky ******/
+.static-header {
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+/* responsive design */
+@media screen and (max-width: 980px) {
+
+    .add-marker-modal {
+        width: 100%;
+    }
+
+}

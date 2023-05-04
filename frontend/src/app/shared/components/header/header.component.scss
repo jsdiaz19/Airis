@@ -1,0 +1,41 @@
+@import '../../../../variables.scss';
+
+#main-container {
+
+    mat-toolbar {
+        background: $color-primary;
+        display: flex;
+        justify-content: center;
+
+        button[mat-button] {
+            width: 20%;
+            font-size: 18px;
+        }
+
+        .spacer {
+            flex: 1 auto;
+        }
+
+        .icon-logout {
+            cursor: pointer;
+        }
+    }
+
+}
+
+/* responsive design */
+@media screen and (max-width: 980px) {
+
+    #main-container {
+
+        mat-toolbar {
+            justify-content: space-evenly;
+            
+            button[mat-button] {
+                width: 40%;
+            }
+        }
+
+    }
+
+}
